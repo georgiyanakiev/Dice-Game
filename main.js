@@ -1,6 +1,6 @@
 function rollDicePlayer1() {
     const playerOneImg = document.querySelector('img.img1');
-    const playerOneDice = Math.floor(Math.random() * 6) + 1;
+    const playerOneDice = Math.floor(Math.random() * 6) + 1; //returns a random integer between the specified values. 
 
     playerOneImg.setAttribute("src", "./img/dice" + playerOneDice + ".png");
 
@@ -9,7 +9,7 @@ function rollDicePlayer1() {
 
 function rollDicePlayer2() {
     const playerTwoImg = document.querySelector('img.img2');
-    const playerTwoDice = Math.floor(Math.random() * 6) + 1;
+    const playerTwoDice = Math.floor(Math.random() * 6) + 1; // returns a random integer between the specified values. 
 
     playerTwoImg.setAttribute("src", "./img/dice" + playerTwoDice + ".png");
 

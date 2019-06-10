@@ -16,7 +16,6 @@ function rollDicePlayer2() {
     return playerTwoDice;
 }
 
-
 function whoWins() {
     const playerOne = rollDicePlayer1();
     const playerTwo = rollDicePlayer2();

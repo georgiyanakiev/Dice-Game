@@ -35,3 +35,11 @@
                 position: relative;
                 top: 160px;
             }
+            
+            .img1 {
+                border-radius: 20%;
+            }
+            
+            .img2 {
+                border-radius: 20%;
+            }

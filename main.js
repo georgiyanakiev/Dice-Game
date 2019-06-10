@@ -16,6 +16,18 @@ function rollDicePlayer2() {
     return playerTwoDice;
 }
 
+function calculateTotal() {
+    // Get the total score by calling function
+    //Each function returns a number so by calling the we add the values they return together 
+    let Scoring = getScore() + getScore1() + getScore2();
+
+    //display the result 
+    let result = document.getElementById('totalScore');
+    result.style.display = 'block';
+    result.innerHTML = "Total score for the selected game" + Scoring;
+    getResult(Scoring);
+}
+
 function whoWins() {
     const playerOne = rollDicePlayer1();
     const playerTwo = rollDicePlayer2();

@@ -1,5 +1,5 @@
 function rollDicePlayer1() {
-    const playerOneImg = document.querySelector('img.img1');
+    const playerOneImg = document.querySelector('img.img1'); //Display dice
     const playerOneDice = Math.floor(Math.random() * 6) + 1; //returns a random integer between the specified values. 
 
     playerOneImg.setAttribute("src", "./img/dice" + playerOneDice + ".png");
@@ -8,24 +8,12 @@ function rollDicePlayer1() {
 }
 
 function rollDicePlayer2() {
-    const playerTwoImg = document.querySelector('img.img2');
+    const playerTwoImg = document.querySelector('img.img2'); //Display dice
     const playerTwoDice = Math.floor(Math.random() * 6) + 1; // returns a random integer between the specified values. 
 
     playerTwoImg.setAttribute("src", "./img/dice" + playerTwoDice + ".png");
 
     return playerTwoDice;
-}
-
-function calculateTotal() {
-    // Get the total score by calling function
-    //Each function returns a number so by calling the we add the values they return together 
-    let Scoring = getScore() + getScore1() + getScore2();
-
-    //display the result 
-    let result = document.getElementById('totalScore');
-    result.style.display = 'block';
-    result.innerHTML = "Total score for the selected game" + Scoring;
-    getResult(Scoring);
 }
 
 function whoWins() {

@@ -3,9 +3,9 @@
         }
         
         h1 {
-            font-weight: 900;
+            display: flex;
             position: relative;
-            top: 10px;
+            top: 0px;
         }
         
         .row-header {
@@ -44,6 +44,7 @@
             font-size: 40px;
             position: relative;
             top: 0px;
+            left: 90px;
         }
         
         #roll {
@@ -74,11 +75,13 @@
         .img1 {
             border-radius: 10%;
             position: relative;
-            top: 120px;
+            top: 100px;
+            right: 80px;
         }
         
         .img2 {
             border-radius: 10%;
             position: relative;
-            top: 120px;
+            top: 100px;
+            right: 80px;
         }

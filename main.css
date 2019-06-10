@@ -41,8 +41,9 @@
         
         p {
             display: flex;
+            font-size: 40px;
             position: relative;
-            top: 50px;
+            top: 0px;
         }
         
         #roll {
@@ -72,8 +73,12 @@
         
         .img1 {
             border-radius: 10%;
+            position: relative;
+            top: 120px;
         }
         
         .img2 {
             border-radius: 10%;
+            position: relative;
+            top: 120px;
         }

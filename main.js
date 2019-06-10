@@ -20,6 +20,8 @@ function whoWins() {
     const playerOne = rollDicePlayer1();
     const playerTwo = rollDicePlayer2();
     const header = document.querySelector('h1');
+
+    // if else statement
     if (playerOne < playerTwo) {
         header.textContent = "Player Two WINS";
     } else if (playerTwo < playerOne) {
@@ -30,5 +32,6 @@ function whoWins() {
 }
 whoWins();
 
+// The button 
 const rollTheDiceBtn = document.getElementById('roll');
 rollTheDiceBtn.addEventListener('click', whoWins);
